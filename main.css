@@ -1,6 +1,12 @@
 h1 {
     text-align: center
 }
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
 
 button {
     background: coral;
@@ -32,7 +38,7 @@ button {
     width: 70%;
     box-shadow: 0 5px 8px 0 rgb(0, 0, 0, 0.2), 0 7px 20px 0 rgb(0, 0, 0, 0.17);
     animation-name:modalopen;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 
