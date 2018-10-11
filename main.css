@@ -31,7 +31,10 @@ button {
     padding: 20px;
     width: 70%;
     box-shadow: 0 5px 8px 0 rgb(0, 0, 0, 0.2), 0 7px 20px 0 rgb(0, 0, 0, 0.17);
+    animation-name:modalopen;
+    animation-duration: 3s;
 }
+
 
 .closeBtn {
     color: #ccc;
@@ -62,4 +65,8 @@ button {
     padding: 20px;
     font-size: 30px;
     text-align: center
+}
+@keyframes modalopen{
+    from{ opacity: 0}
+    to{ opacity: 1}
 }
