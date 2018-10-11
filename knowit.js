@@ -1,4 +1,4 @@
-// Get elements
+/* Get elements
 const modal = document.getElementById('simpleModal');
 //Get open modal button
 const modalBtn = document.getElementById('modalBtn');
