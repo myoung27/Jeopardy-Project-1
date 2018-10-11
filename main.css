@@ -38,7 +38,7 @@ button {
 }
 
 .modal-content {
-    background-color: blue;
+    background-color: white;
     margin: 20% auto;
     padding: 20px;
     width: 80%;
@@ -70,13 +70,14 @@ button {
     text-align: center;
     grid-gap: 1em;
     grid-auto-rows: 100px;
-    background: goldenrod;
+    background: coral;
     border: 3px solid rgb(0, 0, 0);
 }
 
 .boxes {
     display: block;
-    background-color: navy;
+    color: white;
+    background-color: rgb(43, 127, 223);
     border: 3px solid #fff;
     padding: 1px;
     font-size: 30px;
