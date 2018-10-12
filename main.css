@@ -19,6 +19,10 @@ p {
     top: 0;
     right: 0;
 }
+.modal-footer{
+    
+    justify-content: center;
+}
 
 .btn-btn-primary {
     display: block;
@@ -39,6 +43,7 @@ button {
 
 .modal-content {
     background-color: white;
+    display: flex;
     margin: 20% auto;
     padding: 20px;
     width: 100%;
