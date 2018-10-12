@@ -7,6 +7,9 @@ let anwser10bbb = document.querySelector("#a10bbb");
 let anwser10c = document.querySelector("#a10c");
 let anwser10cc = document.querySelector("#a10cc");
 let anwser10ccc = document.querySelector("#a10ccc");
+let anwser10d = document.querySelector("#a10d");
+let anwser10dd = document.querySelector("#a10dd");
+let anwser10ddd = document.querySelector("#a10ddd");
 let score1 = document.querySelector("h1");
 var points = 0;
 
@@ -64,15 +67,18 @@ anwser10ccc.addEventListener("click", function() {
   document.getElementsByClassName("btn")[2].style.visibility = "hidden";
 });
 anwser10d.addEventListener("click", function() {
-    points += 10;
+    points -= 10;
     console.log(points);
     score1.innerHTML = points;
+    document.getElementsByClassName("btn")[3].style.visibility = "hidden";
   });
   anwser10dd.addEventListener("click", function() {
     points -= 10;
     score1.innerHTML = points;
+    document.getElementsByClassName("btn")[3].style.visibility = "hidden";
   });
   anwser10ddd.addEventListener("click", function() {
-    points -= 10;
+    points += 10;
     score1.innerHTML = points;
+    document.getElementsByClassName("btn")[3].style.visibility = "hidden";
   });
