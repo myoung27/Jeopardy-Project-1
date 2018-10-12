@@ -114,13 +114,13 @@ anwser10bbb.addEventListener("click", function() {
   document.getElementsByClassName("btn")[1].style.visibility = "hidden";
 });
 anwser10c.addEventListener("click", function() {
-  points += 10;
+  points -= 10;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[2].style.visibility = "hidden";
 });
 anwser10cc.addEventListener("click", function() {
-  points -= 10;
+  points += 10;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[2].style.visibility = "hidden";
 });
@@ -130,7 +130,7 @@ anwser10ccc.addEventListener("click", function() {
   document.getElementsByClassName("btn")[2].style.visibility = "hidden";
 });
 anwser10d.addEventListener("click", function() {
-  points += 10;
+  points -= 10;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[3].style.visibility = "hidden";
@@ -141,7 +141,7 @@ anwser10dd.addEventListener("click", function() {
   document.getElementsByClassName("btn")[3].style.visibility = "hidden";
 });
 anwser10ddd.addEventListener("click", function() {
-  points -= 10;
+  points += 10;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[3].style.visibility = "hidden";
 });
@@ -152,7 +152,7 @@ anwser10e.addEventListener("click", function() {
   document.getElementsByClassName("btn")[4].style.visibility = "hidden";
 });
 anwser10ee.addEventListener("click", function() {
-  points -= 10;
+  points += 10;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[4].style.visibility = "hidden";
 });
