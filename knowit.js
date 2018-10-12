@@ -215,7 +215,7 @@ anwser20ccc.addEventListener("click", function() {
   document.getElementsByClassName("btn")[7].style.visibility = "hidden";
 });
 anwser20d.addEventListener("click", function() {
-  points += 20;
+  points -= 20;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[8].style.visibility = "hidden";
@@ -226,18 +226,18 @@ anwser20dd.addEventListener("click", function() {
   document.getElementsByClassName("btn")[8].style.visibility = "hidden";
 });
 anwser20ddd.addEventListener("click", function() {
-  points -= 20;
+  points += 20;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[8].style.visibility = "hidden";
 });
 anwser20e.addEventListener("click", function() {
-  points -= 20;
+  points += 20;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[9].style.visibility = "hidden";
 });
 anwser20ee.addEventListener("click", function() {
-  points += 20;
+  points -= 20;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[9].style.visibility = "hidden";
 });
@@ -266,13 +266,13 @@ anwser30aaa.addEventListener("click", function() {
 });
 
 anwser30b.addEventListener("click", function() {
-  points += 30;
+  points -= 30;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[11].style.visibility = "hidden";
 });
 anwser30bb.addEventListener("click", function() {
-  points -= 30;
+  points += 30;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[11].style.visibility = "hidden";
@@ -284,7 +284,7 @@ anwser30bbb.addEventListener("click", function() {
   document.getElementsByClassName("btn")[11].style.visibility = "hidden";
 });
 anwser30c.addEventListener("click", function() {
-  points += 30;
+  points -= 30;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[12].style.visibility = "hidden";
@@ -295,7 +295,7 @@ anwser30cc.addEventListener("click", function() {
   document.getElementsByClassName("btn")[12].style.visibility = "hidden";
 });
 anwser30ccc.addEventListener("click", function() {
-  points -= 30;
+  points += 30;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[12].style.visibility = "hidden";
 });
@@ -316,13 +316,13 @@ anwser30ddd.addEventListener("click", function() {
   document.getElementsByClassName("btn")[13].style.visibility = "hidden";
 });
 anwser30e.addEventListener("click", function() {
-  points += 30;
+  points -= 30;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[14].style.visibility = "hidden";
 });
 anwser30ee.addEventListener("click", function() {
-  points -= 30;
+  points += 30;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[14].style.visibility = "hidden";
 });
