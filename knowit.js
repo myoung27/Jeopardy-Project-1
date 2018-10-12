@@ -58,6 +58,21 @@ let anwser40ddd = document.querySelector("#a40ddd");
 let anwser40e = document.querySelector("#a40e");
 let anwser40ee = document.querySelector("#a40ee");
 let anwser40eee = document.querySelector("#a40eee");
+let anwser50a = document.querySelector("#a50a");
+let anwser40aa = document.querySelector("#a40aa");
+let anwser50aaa = document.querySelector("#a50aaa");
+let anwser40b = document.querySelector("#a50b");
+let anwser50bb = document.querySelector("#a50bb");
+let anwser50bbb = document.querySelector("#a50bbb");
+let anwser50c = document.querySelector("#a50c");
+let anwser50cc = document.querySelector("#a50cc");
+let anwser50ccc = document.querySelector("#a50ccc");
+let anwser50d = document.querySelector("#a50d");
+let anwser50dd = document.querySelector("#a50dd");
+let anwser50ddd = document.querySelector("#a50ddd");
+let anwser50e = document.querySelector("#a50e");
+let anwser50ee = document.querySelector("#a50ee");
+let anwser50eee = document.querySelector("#a50eee");
 let score1 = document.querySelector("h1");
 var points = 0;
 
@@ -232,174 +247,257 @@ anwser20eee.addEventListener("click", function() {
   document.getElementsByClassName("btn")[9].style.visibility = "hidden";
 });
 anwser30a.addEventListener("click", function() {
-    points -= 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[10].style.visibility = "hidden";
-  });
-  anwser30aa.addEventListener("click", function() {
-    points += 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[10].style.visibility = "hidden";
-  });
-  anwser30aaa.addEventListener("click", function() {
-    points -= 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[10].style.visibility = "hidden";
-  });
-  
-  anwser30b.addEventListener("click", function() {
-    points += 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[11].style.visibility = "hidden";
-  });
-  anwser30bb.addEventListener("click", function() {
-    points -= 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[11].style.visibility = "hidden";
-  });
-  anwser30bbb.addEventListener("click", function() {
-    points -= 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[11].style.visibility = "hidden";
-  });
-  anwser30c.addEventListener("click", function() {
-    points += 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[12].style.visibility = "hidden";
-  });
-  anwser30cc.addEventListener("click", function() {
-    points -= 30;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[12].style.visibility = "hidden";
-  });
-  anwser30ccc.addEventListener("click", function() {
-    points -= 30;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[12].style.visibility = "hidden";
-  });
-  anwser30d.addEventListener("click", function() {
-    points += 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[13].style.visibility = "hidden";
-  });
-  anwser30dd.addEventListener("click", function() {
-    points -= 30;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[13].style.visibility = "hidden";
-  });
-  anwser30ddd.addEventListener("click", function() {
-    points -= 30;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[13].style.visibility = "hidden";
-  });
-  anwser30e.addEventListener("click", function() {
-    points += 30;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[14].style.visibility = "hidden";
-  });
-  anwser30ee.addEventListener("click", function() {
-    points -= 30;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[14].style.visibility = "hidden";
-  });
-  anwser30eee.addEventListener("click", function() {
-    points -= 30;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[14].style.visibility = "hidden";
-  });
-  anwser40a.addEventListener("click", function() {
-    points -= 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[15].style.visibility = "hidden";
-  });
-  anwser40aa.addEventListener("click", function() {
-    points += 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[15].style.visibility = "hidden";
-  });
-  anwser40aaa.addEventListener("click", function() {
-    points -= 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[15].style.visibility = "hidden";
-  });
-  
-  anwser40b.addEventListener("click", function() {
-    points += 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[16].style.visibility = "hidden";
-  });
-  anwser40bb.addEventListener("click", function() {
-    points -= 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[16].style.visibility = "hidden";
-  });
-  anwser40bbb.addEventListener("click", function() {
-    points -= 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[16].style.visibility = "hidden";
-  });
-  anwser40c.addEventListener("click", function() {
-    points += 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[17].style.visibility = "hidden";
-  });
-  anwser40cc.addEventListener("click", function() {
-    points -= 40;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[17].style.visibility = "hidden";
-  });
-  anwser40ccc.addEventListener("click", function() {
-    points -= 40;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[17].style.visibility = "hidden";
-  });
-  anwser40d.addEventListener("click", function() {
-    points += 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[18].style.visibility = "hidden";
-  });
-  anwser40dd.addEventListener("click", function() {
-    points -= 40;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[18].style.visibility = "hidden";
-  });
-  anwser40ddd.addEventListener("click", function() {
-    points -= 40;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[18].style.visibility = "hidden";
-  });
-  anwser40e.addEventListener("click", function() {
-    points += 40;
-    console.log(points);
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[19].style.visibility = "hidden";
-  });
-  anwser40ee.addEventListener("click", function() {
-    points -= 40;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[19].style.visibility = "hidden";
-  });
-  anwser40eee.addEventListener("click", function() {
-    points -= 40;
-    score1.innerHTML = points;
-    document.getElementsByClassName("btn")[19].style.visibility = "hidden";
-  });
- 
-  
+  points -= 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[10].style.visibility = "hidden";
+});
+anwser30aa.addEventListener("click", function() {
+  points += 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[10].style.visibility = "hidden";
+});
+anwser30aaa.addEventListener("click", function() {
+  points -= 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[10].style.visibility = "hidden";
+});
+
+anwser30b.addEventListener("click", function() {
+  points += 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[11].style.visibility = "hidden";
+});
+anwser30bb.addEventListener("click", function() {
+  points -= 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[11].style.visibility = "hidden";
+});
+anwser30bbb.addEventListener("click", function() {
+  points -= 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[11].style.visibility = "hidden";
+});
+anwser30c.addEventListener("click", function() {
+  points += 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[12].style.visibility = "hidden";
+});
+anwser30cc.addEventListener("click", function() {
+  points -= 30;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[12].style.visibility = "hidden";
+});
+anwser30ccc.addEventListener("click", function() {
+  points -= 30;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[12].style.visibility = "hidden";
+});
+anwser30d.addEventListener("click", function() {
+  points += 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[13].style.visibility = "hidden";
+});
+anwser30dd.addEventListener("click", function() {
+  points -= 30;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[13].style.visibility = "hidden";
+});
+anwser30ddd.addEventListener("click", function() {
+  points -= 30;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[13].style.visibility = "hidden";
+});
+anwser30e.addEventListener("click", function() {
+  points += 30;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[14].style.visibility = "hidden";
+});
+anwser30ee.addEventListener("click", function() {
+  points -= 30;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[14].style.visibility = "hidden";
+});
+anwser30eee.addEventListener("click", function() {
+  points -= 30;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[14].style.visibility = "hidden";
+});
+anwser40a.addEventListener("click", function() {
+  points -= 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[15].style.visibility = "hidden";
+});
+anwser40aa.addEventListener("click", function() {
+  points += 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[15].style.visibility = "hidden";
+});
+anwser40aaa.addEventListener("click", function() {
+  points -= 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[15].style.visibility = "hidden";
+});
+
+anwser40b.addEventListener("click", function() {
+  points += 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[16].style.visibility = "hidden";
+});
+anwser40bb.addEventListener("click", function() {
+  points -= 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[16].style.visibility = "hidden";
+});
+anwser40bbb.addEventListener("click", function() {
+  points -= 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[16].style.visibility = "hidden";
+});
+anwser40c.addEventListener("click", function() {
+  points += 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[17].style.visibility = "hidden";
+});
+anwser40cc.addEventListener("click", function() {
+  points -= 40;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[17].style.visibility = "hidden";
+});
+anwser40ccc.addEventListener("click", function() {
+  points -= 40;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[17].style.visibility = "hidden";
+});
+anwser40d.addEventListener("click", function() {
+  points += 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[18].style.visibility = "hidden";
+});
+anwser40dd.addEventListener("click", function() {
+  points -= 40;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[18].style.visibility = "hidden";
+});
+anwser40ddd.addEventListener("click", function() {
+  points -= 40;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[18].style.visibility = "hidden";
+});
+anwser40e.addEventListener("click", function() {
+  points += 40;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[19].style.visibility = "hidden";
+});
+anwser40ee.addEventListener("click", function() {
+  points -= 40;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[19].style.visibility = "hidden";
+});
+anwser40eee.addEventListener("click", function() {
+  points -= 40;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[19].style.visibility = "hidden";
+});
+anwser50a.addEventListener("click", function() {
+  points -= 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[20].style.visibility = "hidden";
+});
+anwser50aa.addEventListener("click", function() {
+  points += 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[20].style.visibility = "hidden";
+});
+anwser50aaa.addEventListener("click", function() {
+  points -= 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[20].style.visibility = "hidden";
+});
+
+anwser50b.addEventListener("click", function() {
+  points += 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[21].style.visibility = "hidden";
+});
+anwser50bb.addEventListener("click", function() {
+  points -= 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[21].style.visibility = "hidden";
+});
+anwser50bbb.addEventListener("click", function() {
+  points -= 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[21].style.visibility = "hidden";
+});
+anwser50c.addEventListener("click", function() {
+  points += 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[22].style.visibility = "hidden";
+});
+anwser50cc.addEventListener("click", function() {
+  points -= 50;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[22].style.visibility = "hidden";
+});
+anwser50ccc.addEventListener("click", function() {
+  points -= 50;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[22].style.visibility = "hidden";
+});
+anwser50d.addEventListener("click", function() {
+  points += 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[23].style.visibility = "hidden";
+});
+anwser50dd.addEventListener("click", function() {
+  points -= 50;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[23].style.visibility = "hidden";
+});
+anwser50ddd.addEventListener("click", function() {
+  points -= 50;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[23].style.visibility = "hidden";
+});
+anwser50e.addEventListener("click", function() {
+  points += 50;
+  console.log(points);
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[24].style.visibility = "hidden";
+});
+anwser50ee.addEventListener("click", function() {
+  points -= 50;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[24].style.visibility = "hidden";
+});
+anwser50eee.addEventListener("click", function() {
+  points -= 50;
+  score1.innerHTML = points;
+  document.getElementsByClassName("btn")[24].style.visibility = "hidden";
+});
