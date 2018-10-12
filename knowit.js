@@ -401,5 +401,5 @@ anwser30a.addEventListener("click", function() {
     score1.innerHTML = points;
     document.getElementsByClassName("btn")[19].style.visibility = "hidden";
   });
-4 
+ 
   
