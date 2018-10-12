@@ -1,9 +1,23 @@
 h1 {
-    text-align: center
+    text-align: center;
+    font-family: 'Rakkas', cursive;
+    
+}
+ #jeopardy{
+    background-image: url(/double_jeopardy____final_jeopardy__by_buddyboy600-d7mo5b5.gif);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;  
+
+
+}
+
+body {
+    background-color: rebeccapurple
 }
 
 h2 {
     text-align: center;
+  
 }
 
 p {
@@ -19,8 +33,9 @@ p {
     top: 0;
     right: 0;
 }
-.modal-footer{
-    
+
+.modal-footer {
+
     justify-content: center;
 }
 

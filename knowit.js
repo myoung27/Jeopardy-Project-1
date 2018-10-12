@@ -501,3 +501,5 @@ anwser50eee.addEventListener("click", function() {
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[24].style.visibility = "hidden";
 });
+
+
