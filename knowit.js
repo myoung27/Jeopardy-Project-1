@@ -162,13 +162,13 @@ anwser10eee.addEventListener("click", function() {
   document.getElementsByClassName("btn")[4].style.visibility = "hidden";
 });
 anwser20a.addEventListener("click", function() {
-  points -= 20;
+  points += 20;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[5].style.visibility = "hidden";
 });
 anwser20aa.addEventListener("click", function() {
-  points += 20;
+  points -= 20;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[5].style.visibility = "hidden";
@@ -181,7 +181,7 @@ anwser20aaa.addEventListener("click", function() {
 });
 
 anwser20b.addEventListener("click", function() {
-  points += 20;
+  points -= 20;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[6].style.visibility = "hidden";
@@ -193,13 +193,13 @@ anwser20bb.addEventListener("click", function() {
   document.getElementsByClassName("btn")[6].style.visibility = "hidden";
 });
 anwser20bbb.addEventListener("click", function() {
-  points -= 20;
+  points += 20;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[6].style.visibility = "hidden";
 });
 anwser20c.addEventListener("click", function() {
-  points += 20;
+  points -= 20;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[7].style.visibility = "hidden";
@@ -210,7 +210,7 @@ anwser20cc.addEventListener("click", function() {
   document.getElementsByClassName("btn")[7].style.visibility = "hidden";
 });
 anwser20ccc.addEventListener("click", function() {
-  points -= 20;
+  points += 20;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[7].style.visibility = "hidden";
 });
@@ -231,13 +231,13 @@ anwser20ddd.addEventListener("click", function() {
   document.getElementsByClassName("btn")[8].style.visibility = "hidden";
 });
 anwser20e.addEventListener("click", function() {
-  points += 20;
+  points -= 20;
   console.log(points);
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[9].style.visibility = "hidden";
 });
 anwser20ee.addEventListener("click", function() {
-  points -= 20;
+  points += 20;
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[9].style.visibility = "hidden";
 });
