@@ -41,7 +41,7 @@ button {
     background-color: white;
     margin: 20% auto;
     padding: 20px;
-    width: 80%;
+    width: 100%;
     box-shadow: 0 5px 8px 0 rgb(0, 0, 0, 0.2), 0 7px 20px 0 rgb(0, 0, 0, 0.17);
     animation-name: modalopen;
     animation-duration: 2s;
