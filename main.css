@@ -1,27 +1,37 @@
 h1 {
     text-align: center;
     font-family: 'Rakkas', cursive;
-} 
-h4{
-    position: absolute;
-    top:0;
-    left:0;
 }
+
+h4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 body {
     background-color: rebeccapurple
 }
 
 h2 {
     text-align: center;
+}
 
+h5 {
+    font-family: 'Rakkas', cursive;
+}
+
+.btn {
+    font-family: 'Rakkas', cursive;
 }
 
 p {
     text-align: center;
 }
 
-#modalBtn2 {
-    float: right;
+
+.modal-body {
+    font-family: 'Rakkas', cursive;
 }
 
 .playerTwoScore {
@@ -91,6 +101,7 @@ button {
 }
 
 .boxes {
+    font-family: 'Rakkas', cursive;
     display: block;
     color: white;
     background-color: rgb(43, 127, 223);
