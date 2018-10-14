@@ -11,13 +11,13 @@
         <link href="https://fonts.googleapis.com/css?family=Rakkas" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="knowit.js" defer></script>
+    <script src="main.js" defer></script>
 </head>
 
 <body>
     <div class="btn-btn-primary btn-lg" id="score">
         <h1 class="animated infinite bounce delay-2s">0</h1>
-        <h4></h4>
+        <h4><div class="btn btn-success" data-toggle="modal" data-target="#seeResults">See Results</div></h4>
         <h5></h5>
 
     </div>
@@ -638,6 +638,23 @@
         </div>
     </div>
     </div>
+    <div class="modal fade" id="seeResults" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Results</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>PlaceHolder</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

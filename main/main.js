@@ -75,6 +75,7 @@ let anwser50ee = document.querySelector("#a50ee");
 let anwser50eee = document.querySelector("#a50eee");
 let score1 = document.querySelector("h1");
 var points = 0;
+let results
 
 anwser10a.addEventListener("click", function() {
   points -= 10;
@@ -501,5 +502,13 @@ anwser50eee.addEventListener("click", function() {
   score1.innerHTML = points;
   document.getElementsByClassName("btn")[24].style.visibility = "hidden";
 });
-
-
+ if (points >= 700) {
+     alert("Congratualtion: You are a Genius!!")
+ } else if ( points >= 400 ) {
+     alert("Wow: You are very knowledgeable!")
+ } else if (points >= 100){
+     alert("Great Job!  Keep going")
+ } else if( points < 0){
+     alert("Whoa there! ")
+ };
+     
