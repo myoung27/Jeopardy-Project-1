@@ -79,9 +79,12 @@ let score1 = document.querySelector("h1");
 let results = document.querySelector("#seeResults")
 let scoreResults = document.querySelector("p");
 var points = 0;
-swal("Welcome To SmartyPants!",{
-  buttons: ["Oh noez!", "Aww yiss!"],
-});
+swal("Welcome To SmartyPants!")
+  .then((value) => {
+    swal(`The rules of this game are very simple:
+     Answer the questions as best as you can and then press the "see results" button to compare your score. Try this quiz against your friends to see who is the real SmartyPants!!!`);
+  });
+
 
 anwser10a.addEventListener("click", function () {
   points -= 10;
@@ -505,5 +508,5 @@ anwser50ee.addEventListener("click", function () {
 anwser50eee.addEventListener("click", function () {
   points -= 50;
   score1.innerHTML = points;
-  document.getElementsByClassName("btn")[25 ].style.visibility = "hidden";
+  document.getElementsByClassName("btn")[25].style.visibility = "hidden";
 });
