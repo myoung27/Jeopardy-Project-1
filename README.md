@@ -2,9 +2,9 @@
 
 ## Overview
 
-In 1978, Merv Griffin revolutionized the television scene with a quiz game show named Jeopardy! The premise was simple: three contestants would play for money based catagories while flexing their acumen on a variety of subjects. This would all lead up to a final gambiling moment where the contestants would wager on one last catagory in order to win it all. This game... is nothing like that. This is SmartyPants.
+In 1978, Merv Griffin revolutionized the television scene with a quiz game show named Jeopardy! The premise was simple: three contestants would play for money based categories while flexing their acumen on a variety of subjects. This would all lead up to a final gambling moment where the contestants would wager on one last category in order to win it all. This game... is nothing like that. This is SmartyPants.
 
-In this game, a player will have 5 catagories to work through. Each with varying levels of difficulty. For each question, the player will be given three choices. If they choose correctly they will earn the points, if chosen poorly,they'll lose the points. Once all 25 questions have been answered, they can check their score against the results charts to see where they stack up. So test and compete against your friends to see who is the real SmartyPants!
+In this game, a player will have 5 categories to work through. Each with varying levels of difficulty. For each question, the player will be given three choices. If they choose correctly they will earn the points, if chosen poorly,they'll lose the points. Once all 25 questions have been answered, they can check their score against the results charts to see where they stack up. So test and compete against your friends to see who is the real SmartyPants!
 
 **Want to PLay the Game?:**
 
