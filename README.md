@@ -10,7 +10,7 @@ In this game, a player will have 5 categories to work through. Each with varying
 
 ## Technologies Used
 
-- Languages - HTML5, CSS3, Javascript,
+- Languages - HTML5, CSS3, Javascript, Jquery
 - Design - Animate.css, Google Fonts, SweetAlert2, Bootstrap
 - Coded in VS Code
 - My [Trello](https://trello.com/b/rF1XaFVC/wdi-project-1smartypants)

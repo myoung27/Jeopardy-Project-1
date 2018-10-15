@@ -34,7 +34,9 @@ swal{
     font-family: 'Rakkas', cursive;
 
 }
-
+.newClass{
+    visibility: hidden
+}
 
 
 .modal-body {
