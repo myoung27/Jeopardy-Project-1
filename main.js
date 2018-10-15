@@ -82,7 +82,7 @@ var points = 0;
 swal("Welcome To SmartyPants!")
   .then((value) => {
     swal(`The rules of this game are very simple:
-     Answer the questions as best as you can and then press the "see results" button to compare your score. Try this quiz against your friends to see who is the real SmartyPants!!!`);
+     Answer the questions as best as you can and then press the "See Results" button to compare your score. Try this quiz against your friends to see who is the real SmartyPants!!!`);
   });
 
 

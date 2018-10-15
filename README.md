@@ -13,7 +13,7 @@ In this game, a player will have 5 categories to work through. Each with varying
 - Languages - HTML5, CSS3, Javascript,
 - Design - Animate.css, Google Fonts, SweetAlert2, Bootstrap
 - Coded in VS Code
-- My [Trello]()
+- My [Trello](https://trello.com/b/rF1XaFVC/wdi-project-1smartypants)
 
 ## Features
 
@@ -23,7 +23,7 @@ In this game, a player will have 5 categories to work through. Each with varying
 
 ## Wireframe
 
-![My Framework]()
+![My Framework](https://www.figma.com/file/aA4cCDl3WwTIzpLwsS6NfSen/Untitled?node-id=1%3A2)
 
 ## Future Developments
 
