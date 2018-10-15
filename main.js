@@ -1,3 +1,4 @@
+// List your variables for each anwser choice
 let anwser10a = document.querySelector("#a10a");
 let anwser10aa = document.querySelector("#a10aa");
 let anwser10aaa = document.querySelector("#a10aaa");
@@ -73,10 +74,15 @@ let anwser50ddd = document.querySelector("#a50ddd");
 let anwser50e = document.querySelector("#a50e");
 let anwser50ee = document.querySelector("#a50ee");
 let anwser50eee = document.querySelector("#a50eee");
+// Define the variables for getting the points to add and subtract
 let score1 = document.querySelector("h1");
 let results = document.querySelector("#seeResults")
 let scoreResults = document.querySelector("p");
 var points = 0;
+swal("Welcome To SmartyPants!",{
+  buttons: ["Oh noez!", "Aww yiss!"],
+});
+
 anwser10a.addEventListener("click", function () {
   points -= 10;
   console.log(points);
